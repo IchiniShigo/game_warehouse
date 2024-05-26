@@ -1,2 +1,2 @@
 # game_warehouse
- Games
+ https://ichinishigo.github.io/game_warehouse/
