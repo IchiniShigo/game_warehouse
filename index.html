@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="favicon/Ampeross-Ampola-Folder-games.256.png" type="image/x-icon">
+
+    <!-- Style Regular CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="Bootstrap4/fontawesome/css/all.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="Bootstrap4/css/bootstrap.css">
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="Otimizacoes/Normalize_Css.css">
+
+    <!-- HTML5SHIV -->
+    <!--[if lt IE 9]>
+	    <script src="_Otimizacoes/html5shiv.js"></script>
+    <![endif]-->
+
+    <title>Jogos</title>
+  </head>
+  <body style="background-color: black;">
+
+    <header>
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <ul class="navbar-nav">
+          <li class="nav-item ml-2">
+            <a class="nav-link" href="">Jogos</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  
+    <div id="home" class="d-flex"> <!--Jogos-->
+      <div class="container align-self-center">
+        <div class="row">
+          <div class="col-sm-8 m-auto">
+
+            <div id="carousel" class="carousel slide" data-ride="carousel"><!--COMEÇO Carousel-->
+
+              <!--Indicadores-->
+              <ol class="carousel-indicators">
+                <li class="active" data-target="#carousel" data-slide-to="0"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
+              </ol>
+
+              <div class="carousel-inner"><!--COMEÇO Inner-->
+
+                <div class="carousel-item active">
+                  <img src="imagens/Jogo1.png" alt="">
+
+                  <div class="carousel-caption">
+                    <a href="https://www.mediafire.com/file/arxawe69ojk9zcj/Furry.rar/file" target="_blank"><button id="botao1" onfocus="corBotao()" onblur="botaoNormal()" class="btn btn-primary btn-lg btn-block" type="button">DOWNLOAD</button></a>
+                  </div>
+
+                </div>
+
+                <div class="carousel-item">
+                  <img src="" alt="">
+
+                  <div class="carousel-caption">
+                    <button id="botao2" onfocus="corBotao()" onblur="botaoNormal()" class="btn btn-primary btn-lg btn-block" type="button">DOWNLOAD</button>
+                  </div>
+
+                </div>
+
+                <div class="carousel-item">
+                  <img src="" alt="">
+
+                  <div class="carousel-caption">
+                    <button id="botao3" onfocus="corBotao()" onblur="botaoNormal()" class="btn btn-primary btn-lg btn-block" type="button">DOWNLOAD</button>
+                  </div>
+
+                </div>
+
+              </div><!--FIM Inner-->
+
+              <!--CONTROLES-->
+
+              <a href="#carousel" class="carousel-control-prev" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+
+              <a href="#carousel" class="carousel-control-next" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </a>
+
+              <!--FIM CONTROLES-->
+            </div><!--FIM Carousel-->
+            
+      
+          </div>
+        </div>
+      </div>
+    </div> <!--Fim Jogos-->
+    
+    <script>
+
+      function corBotao(){
+          document.getElementById('botao1').className = 'btn btn-success btn-lg btn-block'
+          document.getElementById('botao2').className = 'btn btn-success btn-lg btn-block'
+          document.getElementById('botao3').className = 'btn btn-success btn-lg btn-block'
+      }
+
+      function botaoNormal(){
+          document.getElementById('botao1').className = 'btn btn-primary btn-lg btn-block'
+          document.getElementById('botao2').className = 'btn btn-primary btn-lg btn-block'
+          document.getElementById('botao3').className = 'btn btn-primary btn-lg btn-block'
+      }
+
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
