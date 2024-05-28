@@ -1,0 +1,67 @@
+/*Backgrounds
+----------------------------*/
+
+div.game{
+    width: 920px;
+    height: 650px;
+    background: url(../images/First/Lewd_gym.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+div.game2{
+    width: 920px;
+    height: 650px;
+    background: url(../images/First/IsekaiJanken.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+div.game3{
+    width: 920px;
+    height: 650px;
+    background: url(../images/First/Liru.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+div.game4{
+    width: 920px;
+    height: 650px;
+    background: url(../images/First/takeTheDungeon.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+div.game5{
+    width: 920px;
+    height: 650px;
+    background: url(../images/First/Handyman.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+div.game6{
+    width: 920px;
+    height: 650px;
+    background: url(../images/First/Peeping_dorm.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/*Rpg
+----------------------------*/
+
+div.rpg{
+    width: 920px;
+    height: 650px;
+    background: url(../images/Rpgs/Furry.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/*end backgrounds
+----------------------------*/

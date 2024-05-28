@@ -1,0 +1,157 @@
+@media (min-width: 450px) and (max-width: 575.98px) {
+
+    #home{
+        margin-top: 40px;
+    }
+
+/*Games
+----------------------------*/
+
+    div.game{
+        width: 420px;
+    }
+
+    div.game2{
+        width: 420px;
+    }
+    
+    div.game3{
+        width: 420px;
+    }
+
+    div.game4{
+        width: 420px;
+    }
+
+    div.game5{
+        width: 420px;
+    }
+
+    div.game6{
+        width: 420px;
+    }
+
+/*Rpg
+----------------------------*/
+
+    div.rpg{
+        width: 420px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    #home{
+        margin-top: 40px;
+    }
+
+/*Games
+----------------------------*/
+
+    div.game{
+        width: 420px;
+    }
+
+    div.game2{
+        width: 420px;
+    }
+
+    div.game3{
+        width: 420px;
+    }
+
+    div.game4{
+        width: 420px;
+    }
+    
+    div.game5{
+        width: 420px;
+    }
+
+    div.game6{
+        width: 420px;
+    }
+
+/*Rpg
+----------------------------*/
+
+    div.rpg{
+        width: 420px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*Games
+----------------------------*/
+
+    div.game{
+        width: 570px;
+    }
+
+    div.game2{
+        width: 570px;
+    }
+
+    div.game3{
+        width: 570px;
+    }
+
+    div.game4{
+        width: 570px;
+    }
+
+    div.game5{
+        width: 570px;
+    }
+
+    div.game6{
+        width: 570px;
+    }
+
+/*Rpg
+----------------------------*/
+
+    div.rpg{
+        width: 570px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*Games
+----------------------------*/
+
+    div.game{
+        width: 770px;
+    }
+
+    div.game2{
+        width: 770px;
+    }
+
+    div.game3{
+        width: 770px;
+    }
+
+    div.game4{
+        width: 770px;
+    }
+
+    div.game5{
+        width: 770px;
+    }
+
+    div.game6{
+        width: 770px;
+    }
+
+/*Rpg
+----------------------------*/
+
+    div.rpg{
+        width: 770px;
+    }
+
+}
